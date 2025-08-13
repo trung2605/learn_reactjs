@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script
+    src="https://unpkg.com/react@18/umd/react.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    crossorigin
+  ></script>
+
+  <!-- Load our React component. -->
+  <script>
+    //DOM
+    const h1Dom = document.createElement("h1");
+
+    h1Dom.title = "Heloo";
+    h1Dom.className = "headidng";
+
+    h1Dom.innerText = "hello guy";
+
+    document.body.appendChild(h1Dom);
+
+    //React
+    const h1React = React.createElement(
+      "h1",
+      {
+        title: "trung le",
+        className: "h1Element",
+      },
+      "heloo bro"
+    ); //=> object
+    //React.createElement(Type, props, childrent, n)
+    //Cấu trúc: Loại element tạo ra, atribute của nó, childrent (vì bên trong reactElement không nhất thiết chỉ
+    //có text nên chúng ta không dùng là innnerText)
+
+    const ulReact = React.createElement(
+      "ul",
+      {
+        style: "font-size: 17px",
+      },
+      React.createElement(
+        "li",
+        {
+          className: "li-element",
+          title: "li",
+        },
+        "trung le 1"
+      ),
+      React.createElement(
+        "li",
+        {
+          className: "li-element",
+          title: "li",
+        },
+        "trung le 2"
+      )
+    );
+
+    console.dir(h1Dom);
+    console.dir(h1React);
+    console.log(ulReact);
+  </script>
+</html>

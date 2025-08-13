@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="root">trung</div>
+  </body>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script
+    src="https://unpkg.com/react@18/umd/react.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    crossorigin
+  ></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+  <script>
+    const root = document.getElementById("root");
+
+    // Tạo container cho form đăng nhập
+    const loginContainer = document.createElement("div");
+    loginContainer.style.display = "flex";
+    loginContainer.style.flexDirection = "column";
+    loginContainer.style.width = "300px";
+    loginContainer.style.padding = "20px";
+    loginContainer.style.border = "1px solid #ccc";
+    loginContainer.style.borderRadius = "5px";
+    loginContainer.style.margin = "50px auto"; // Căn giữa màn hình
+
+    // Tiêu đề đăng nhập
+    const heading = document.createElement("h2");
+    heading.textContent = "Đăng nhập";
+    heading.style.textAlign = "center";
+    loginContainer.appendChild(heading);
+
+    // Label và input cho tên đăng nhập
+    const usernameLabel = document.createElement("label");
+    usernameLabel.textContent = "Tên đăng nhập:";
+    usernameLabel.style.marginBottom = "5px";
+    loginContainer.appendChild(usernameLabel);
+
+    const usernameInput = document.createElement("input");
+    usernameInput.type = "text";
+    usernameInput.style.padding = "8px";
+    usernameInput.style.marginBottom = "15px";
+    loginContainer.appendChild(usernameInput);
+
+    // Label và input cho mật khẩu
+    const passwordLabel = document.createElement("label");
+    passwordLabel.textContent = "Mật khẩu:";
+    passwordLabel.style.marginBottom = "5px";
+    loginContainer.appendChild(passwordLabel);
+
+    const passwordInput = document.createElement("input");
+    passwordInput.type = "password";
+    passwordInput.style.padding = "8px";
+    passwordInput.style.marginBottom = "20px";
+    loginContainer.appendChild(passwordInput);
+
+    // Nút đăng nhập
+    const loginButton = document.createElement("button");
+    loginButton.textContent = "Đăng nhập";
+    loginButton.style.padding = "10px 15px";
+    loginButton.style.backgroundColor = "#007bff";
+    loginButton.style.color = "white";
+    loginButton.style.border = "none";
+    loginButton.style.borderRadius = "5px";
+    loginButton.style.cursor = "pointer";
+    loginContainer.appendChild(loginButton);
+
+    // Thêm container đăng nhập vào root
+    root.appendChild(loginContainer);
+
+    console.log(root);
+    console.log(React.version);
+    console.log(React.version);
+  </script>
+</html>

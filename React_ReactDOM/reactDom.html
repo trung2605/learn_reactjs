@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script>
+        const post = React.createElement(
+            "div",
+            {
+            className: "post-item",
+            },
+            React.createElement(
+            "h2",
+            {
+                title: "Học react",
+            },
+            "Học React tại đây"
+            ),
+            React.createElement("p", null, "React cơ bản")
+        );
+
+        console.dir(post);
+
+        const root = document.getElementById("root");
+
+        //ReactDom => RenderUI
+        //@React 17
+        //ReactDOM.render(element, container, callback) dùng với react 17
+        //   ReactDOM.render(post, root);
+
+        //   react-dom.development.js:73 Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead.
+        //   Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
+        //@React 18
+        const rootContainer = ReactDOM.createRoot(root);
+        rootContainer.render(post);
+    </script>
+  </body>
+</html>

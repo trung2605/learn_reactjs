@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="37456d20-c0f9-424b-b473-a57f9b35ece2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Hooks/chat-app" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/chat-app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/chat-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/chat-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/chat-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/chat-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/chat-app/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/chat-app/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/chat-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/chat-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_project" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_reducer" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_reducer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_reducer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_reducer/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_reducer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_reducer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_reducer/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_reducer/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-context" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-context" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-context/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-context/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-effect" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-effect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-effect/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-effect/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-layout-callback" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-layout-callback" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-layout-callback/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-layout-callback/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-layout-effect" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-layout-effect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-layout-effect/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-layout-effect/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-memo" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-memo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-memo/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-memo/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-ref" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-ref/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-ref/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-ref/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-ref/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/hook_use-ref/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/hook_use-ref/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/preview-avatar" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/preview-avatar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/preview-avatar/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/preview-avatar/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/to-do-list" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/to-do-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/to-do-list-reducer" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/to-do-list-reducer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/to-do-list-reducer/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/to-do-list-reducer/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/to-do-list/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/to-do-list/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/to-do-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/to-do-list/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hooks/to-do-list/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Hooks/to-do-list/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31KGxIp8JDFUfa07OpxX6CUG2Uo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.Tests in context_reducer\\.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Tests in hook_use-effect\\.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/ReactJs/Hooks/context_reducer/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Jest.Tests in context_reducer\">
+    <configuration name="Tests in context_reducer\" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/Hooks/context_reducer/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/Hooks/context_reducer" />
+      <envs />
+      <scope-kind value="DIRECTORY" />
+      <test-directory value="$PROJECT_DIR$/Hooks/context_reducer" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in hook_use-effect\" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/hook_use-effect/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/hook_use-effect" />
+      <envs />
+      <scope-kind value="DIRECTORY" />
+      <test-directory value="$PROJECT_DIR$/hook_use-effect" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Tests in context_reducer\" />
+        <item itemvalue="Jest.Tests in hook_use-effect\" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37456d20-c0f9-424b-b473-a57f9b35ece2" name="Changes" comment="" />
+      <created>1755265598277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755265598277</updated>
+      <workItem from="1755265600046" duration="493000" />
+      <workItem from="1755593189740" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/chat-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_reducer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_use-context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_use-effect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_use-layout-callback" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_use-layout-effect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_use-memo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/hook_use-ref" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/preview-avatar" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/to-do-list" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Hooks/to-do-list-reducer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hook_use-effect" vcs="Git" />
+  </component>
+</project>

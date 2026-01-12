@@ -1,0 +1,24 @@
+import { SET_TODO_INPUT, ADD_TODO } from "./constants";
+
+const initState = {
+  todos: [
+    // 'Learn React',
+    // 'Learn Context API',
+    // 'Learn useReducer Hook',
+  ],
+  todoInput: "",
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case SET_TODO_INPUT:
+      return { ...state, todoInput: action.payload };
+    case ADD_TODO:
+      return { ...state, todos: [...state.todos, action.payload] };
+    default:
+      throw new Error("Invalid action type: " + action.type);
+  }
+}
+
+export { initState };
+export default reducer;
